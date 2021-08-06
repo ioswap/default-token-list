@@ -1,9 +1,10 @@
 const { version } = require('../package.json');
-const mainnet = require('./tokens/mainnet.json');
-const ropsten = require('./tokens/ropsten.json');
-const rinkeby = require('./tokens/rinkeby.json');
-const goerli = require('./tokens/goerli.json');
-const kovan = require('./tokens/kovan.json');
+//const mainnet = require('./tokens/mainnet.json');
+//const ropsten = require('./tokens/ropsten.json');
+//const rinkeby = require('./tokens/rinkeby.json');
+//const goerli = require('./tokens/goerli.json');
+//const kovan = require('./tokens/kovan.json');
+const okt = require('./tokens/okt.json');
 
 module.exports = function buildList() {
   const parsed = version.split('.');
@@ -22,11 +23,7 @@ module.exports = function buildList() {
       'default'
     ],
     tokens: [
-      ...mainnet,
-      ...ropsten,
-      ...goerli,
-      ...kovan,
-      ...rinkeby
+      ...okt,
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
