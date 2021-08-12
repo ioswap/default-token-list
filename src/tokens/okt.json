@@ -2,10 +2,10 @@
     {
       "name": "IOS",
       "symbol": "IOS",
-      "address": "0x6299b03a3B121E450BB173dE69186d54981e6cef",
+      "address": "0x6299b03a3b121e450bb173de69186d54981e6cef",
       "chainId": 66,
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/ioswap/default-token-list/master/icons/0x6299b03a3B121E450BB173dE69186d54981e6cef.png"
+      "logoURI": "https://raw.githubusercontent.com/ioswap/default-token-list/master/icons/0x6299b03a3b121e450bb173de69186d54981e6cef.png"
     },
 	{
 	  "name": "BTCK",
